@@ -101,34 +101,35 @@
         <!--Section Activities  -->
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class=" activities-list list">
-          <li class="item">
-            <img class="image"
-              src="./images/ActDescApp.jpg"
-              alt="Десктопными приложениями"
-              width="370"
-            />
-            <p class="text">Десктопные приложения</p>
+          <li class="item activities-box">
+            
+              <img class="image" src="./images/ActDescApp.jpg" alt="Десктопными приложениями" width="370" />
+              <p class="text">Десктопные приложения</p>
+            
           </li>
 
-          <li class="item">
+          <li class="item activities-box">
+            
             <img class="image"
               src="./images/ActMobDev.jpg"
               alt="Мобильными приложениями"
               width="370"
             />
             <p class="text">Мобильные приложения</p>
+           
           </li>
 
-          <li class="item">
-            <img class="image"
+          <li class="item activities-box">
+                        <img class="image"
               src="./images/ActDesignDes.jpg"
               alt="Дизайнерскими решениями"
               width="370"
             />
             <p class="text">Дизайнерские решения</p>
+            
           </li>
         </ul>
-        </div>
+        
       </section>
 
       <section class="section team">
@@ -384,6 +385,13 @@
 
   </div>
 </footer>
+<script>
+      const { height: pageHeaderHeight } = document
+        .querySelector(".page-header")
+        .getBoundingClientRect();
+
+      document.body.style.paddingTop = `${pageHeaderHeight}px`;
+    </script>
 </body>
 
 </html>
