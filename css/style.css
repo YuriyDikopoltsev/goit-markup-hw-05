@@ -561,6 +561,7 @@ html {
 /** PORTFOLIO **/
 
 .portfolio {
+  margin-top: 80px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
